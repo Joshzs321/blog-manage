@@ -43,7 +43,7 @@ export default {
             alertType:"",
             isShowAlert:false,
             loginForm: {
-                username: 'admin',
+                username: 'josh',
                 password: '123456'
             },
             rules:{
@@ -99,6 +99,7 @@ export default {
             })
         },
         login(){
+            
             user.login(this.loginForm).then((res)=>{
                 console.log(res)
                 if(res.data.token){
