@@ -6,7 +6,7 @@ import router from './router'
 import store from './store'
 import autoLoad from './components/global/autoLoad'
 import Element from 'element-ui'
-import cookies from 'vue-cookies'
+import cookies from 'vue-cookie'
 // import mavoneditor from 'mavon-editor'
 Vue.prototype.$cookies = cookies
     // Vue.prototype.$router = router

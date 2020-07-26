@@ -1,6 +1,6 @@
 //axios封装
 import axios from "axios"
-import cookies from 'vue-cookies'
+import cookies from 'vue-cookie'
 import qs from "qs"
 import router from "../router/index"
 export default {
